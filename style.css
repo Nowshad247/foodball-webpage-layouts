@@ -231,6 +231,9 @@ input[type=submit]:hover {
 /* media queary  */
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
     .manu{
         display: none;
     }
@@ -239,13 +242,27 @@ input[type=submit]:hover {
     }
     .banner{
         display: block;
-        max-width: 350px;
-        min-width: 600px;
+        max-width: 520px;
+        min-width: 350px;
         margin-left: 5%;
+        margin: 0px ;
     }
     .banner-titile{
         width: 100%;
         margin-bottom: 100px;
+    }
+    .banner-iteam{
+        margin-bottom: 100px;
+        margin-left: 20%;
+        
+    }
+    .banner-imag{
+       
+        max-width: 400px;
+        position: relative;
+        right: 15%;
+
+       
     }
     .blogs{
         margin: 70px 0 ;

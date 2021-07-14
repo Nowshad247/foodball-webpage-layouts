@@ -38,7 +38,7 @@ nav .manu>ul>li a {
     color: white;
     background-color: #E02C6D;
     padding: 10px 24px;
-    
+    width: 120px;
 }
 .banner{
     display: flex;
